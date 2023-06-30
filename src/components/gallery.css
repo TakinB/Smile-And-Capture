@@ -1,0 +1,33 @@
+.gallery {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+  }
+  
+  .gallery__container {
+    margin-top: 2rem;
+    width: 100%;
+    min-height: 500px;
+  
+  }
+  
+  .gallery__container h2 {
+    text-align: center;
+  }
+  
+  .gallery__image-wrapper {
+    position: relative;
+    margin: 1rem;
+    width: 150px;
+    height: 120px;
+  
+  }
+  
+  .gallery__photo {
+    width: 100%;
+    opacity: 0.5;
+    cursor: pointer;
+    border: 1px solid var(--color-light);
+    border-radius: 2px;
+  }
